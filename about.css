@@ -1,0 +1,621 @@
+@import url(./fonts.css);
+
+
+
+body{
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.section{
+    background-color: rgb(248, 248, 248);
+}
+
+.section_com{
+     
+    background-color: rgb(230, 237, 237);
+}
+
+.container_big{
+    width: 1000px;
+    margin: 0 auto;
+    /*padding: 0 0 100px 0;*/
+}
+
+.navigation{
+    width: 150%;
+    display: flex;
+    justify-content: baseline;
+    padding-bottom: 10px;
+}
+
+.logo{
+    padding-left: 0,1px;
+}
+
+.logo img{
+    width: 65%;
+}
+
+.text_nav{
+    width: 220%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.text_nav a{
+    font-family: 'Mon';
+    font-size: 0.938rem;
+    font-weight: 400;
+    color: #C32BAD;
+    border: 1px solid rgba(195, 43, 173, 0);
+    border-radius: 18px;
+    padding: 25px 40px;
+    transition: 0.2s;
+}
+
+.text_nav a:hover{
+    border: 1px solid #C32BAD;
+    border-radius: 18px;
+    transition: 0.2s;
+}
+
+.section_img{
+    padding: 1rem 7%;
+    background: url(./assets/img/colorful-glow-lines.gif);
+    background-size: cover;
+    height: 80vh;
+    padding-top: 10%;
+}
+
+.container_big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.block_main {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.zagolovok {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+
+.button-1 a{
+   font-family: 'Mon Bold';
+    font-size: 1.2rem;
+    text-align: center;
+    
+    padding: 15px 20px;
+    
+    color: #F8F8F8;
+    background: #FA0568;
+    border-radius: 69px;
+
+    transition: all ease 0.4s;
+}
+.button-1 a:hover{
+    background: #2E134E;
+    box-shadow: 0px 5px 9px rgba(32, 31, 31, 0.179);
+    transition: all ease 0.4s;
+
+}
+
+ 
+.biggest{
+    text-align: center;
+    font-family: 'Mon';
+    font-size: 1.563rem;
+    font-weight: 400;
+    color: #E567AE;
+    padding-bottom: 10px;
+}
+
+
+.biggest1{
+    
+    text-align: center;
+    font-family: 'Mon';
+    font-size: 1.563rem;
+    font-weight: 400;
+    color:  #eee4b2ec;
+    padding-bottom: 9px;
+}
+
+.biggest2{
+    width: 740px;
+    
+    text-align: center;
+    font-family: 'Mon';
+    font-size: 1.563rem;
+    font-weight: 100;
+    color:  rgb(229, 160, 220);
+    padding-bottom: 10px;
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #222;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #ffff;
+    background-color:transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #9dcbcf;
+    outline: none;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+     
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration-line: none;
+}
+.big {
+    background-color: #ECFFFF;  
+   
+}
+
+.content{
+    width: 1400px;
+    margin: 0 auto;
+    
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #C2F9F9;
+   
+    Font-family: "Monr";
+    font-size: 24px;
+
+}
+.logo img{
+    width: 394px;
+    height: 302px;
+}
+
+.ak a{
+    padding-left: 30px;
+    Font-family: "Mons";
+    font-size: 24px;
+    color: black;
+}
+
+.praz{
+   text-align: center;
+   
+}
+.praz h2{
+    font-family: 'Mons';
+    font-size: 64px;
+    color:#CEA75C ;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.praz p{
+    font-family: 'Monr';
+    font-size: 36px;  
+    margin-bottom: 50px;
+}
+.praz img{
+    border-radius: 93px;
+}
+
+.onas{
+    margin-top: 100px;
+
+}
+.vse{
+    font-family: 'Monm';
+    font-size: 48px;
+    text-align: center;
+}
+.b1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.b1 img{
+    width: 536px;
+    height: 357px;
+    border-radius: 71px;
+    margin-top: 150px;
+}   
+.b1 p{
+  
+    font-family: 'Monr';
+    font-size: 26px;
+
+}
+.yel{
+    color: #CEA75C;
+    font-family: 'Mons';
+    font-size: 26px;
+}
+
+.b2{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.b2 img{
+    width: 604px;
+    height: 403px;
+    border-radius: 71px;
+
+}
+.b2 p{
+    font-family: 'Monr';
+    font-size: 26px;
+}
+.sveta{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+margin-bottom: 75px;
+position: relative;
+}
+.sveta p{
+    font-family: 'Monm';
+    font-size: 24px;
+    padding-left: 50px;
+
+}
+.sveta .sv{
+   width: 512px;
+    height: 355px;
+    border-radius: 44px;
+}
+.Marina{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    position: relative;
+
+}
+.Marina .mar{
+    width: 691px;
+    H: 461PX;
+border-radius: 127PX;
+
+
+}
+.Marina p{
+    font-family: 'Monm';
+    font-size: 24px;
+}
+.strelka{
+    width: 15%;
+    position: absolute;
+    top: 330px;
+    right: 500px;
+    transform: rotate(220deg);
+
+}
+.strelka1{
+    width: 202px;
+    height: 240px;
+    position: absolute;
+  bottom: 300px;
+  left: 500px;
+  transform: rotate(50deg);
+}
+
+
+.kakpr{
+    margin-top: 300px;
+
+}
+.kakpr .vse{
+    margin-bottom: 100px;
+}
+.inctuc{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 200px);
+
+}
+.bloc1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    position: relative;
+    padding-left:100px ;
+    text-align: center;
+}
+.bloc1 img{
+    width: 109px;
+    height: 118px;
+    margin-bottom: 30px;
+}
+.strelka2{
+    position: absolute;
+    transform: rotate(60deg);
+    left: 330px;
+}
+.bloc2{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    position: relative;
+    text-align: center;
+    
+}
+.bloc2 img{
+    width: 109px;
+    height: 118px;
+    margin-bottom: 30px;
+}
+.strelka3{
+    position: absolute;
+    transform: rotate(60deg);
+    left: 280px;
+}
+.bloc3{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    position: relative;
+    text-align: center;
+    
+}
+.bloc3 img{
+    width: 109px;
+    height: 118px;
+    margin-bottom: 30px;
+}
+.strelka4{
+    position: absolute;
+    transform: rotate(60deg);
+    left: 280px;
+}
+.bloc4{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    position: relative;
+    text-align: center;
+
+    
+}
+.bloc4 img{
+    width: 109px;
+    height: 118px;
+    margin-bottom: 30px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -250px;
+}
+.blue{
+    background-color: #98CBCB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+    border-radius:81px;
+
+}
+.blue .vse{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.block-form{
+    display: flex;
+    flex-direction: column;
+}
+.blue form label{
+    font-family: 'Monm';
+    font-size: 22px;
+    color: black;
+}
+
+.blue form input{
+    padding: 15px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 30px;
+}
+.knopka{
+    width: 300px;
+    height: 80px;
+    background-color: #CEA75C;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Monb';
+    font-size: 36px;
+
+}
+.aksia{
+    padding: 50px;
+    margin-top: 100px;
+    
+}
+.dkn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.xz0{
+    margin-bottom: 100px;
+    font-family: 'Monm';
+    font-size: 22px;
+}
+.xz{
+    margin-bottom: 50px;
+    display: flex;
+
+}
+.xz0 img{
+    margin-bottom: 50px;
+    border-radius: 62px;
+}
+.kdfj{
+    display: flex;
+    justify-content: center;
+}
+.aksia .vse{
+    margin-bottom: 50px;
+}
+.podpiska .block-form{
+    padding-top: 100px;
+}
+.podpiska .vse{
+    margin-bottom: 100px;
+}
+.podpiska{
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.posl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    font-family: 'Monm';
+    font-size: 22px;
+    background-color:#98CBCB ;
+    padding: 20px;
+}
+.posl img{
+    width: 25%;
+
+}
+.posl a{
+    color: black;
+    font-size: 32px;
+}
+
+.loc{
+    margin-top: 100px;
+    font-family: 'Monm';
+    font-size: 24px;
+    text-align: center;
+   
+
+}
+.ssilka{
+    padding-right: 50px;
+}
+.ssilka p{
+    margin-bottom: 15px;
+
+}
+.loca{
+    margin-top: 100px;
+    padding: 20px;
+}
+.shater{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Monm' ;
+    font-size: 32px;
+    margin-bottom: 100px;
+}
+.shatertxt p{
+    margin-bottom: 100px;
+}
